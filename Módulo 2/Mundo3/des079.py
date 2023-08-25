@@ -13,7 +13,7 @@ while True:
     if continuar not in 'SN':
         while continuar not in 'SN':
             if continuar not in 'S':
-                continuar = str(input('Opção inválida. Deseja continuar: [S/N] ')).upper().strip()
+                continuar = str(input('Opção ERRADA TENTE novamente. Deseja continuar: [S/N] ')).upper().strip()
             else:
                 break
 
