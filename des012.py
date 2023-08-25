@@ -1,0 +1,5 @@
+prod = input('Digite o produto que deseja comprar: ')
+prec = float(input('Qual o preço do produto na etiqueta? '))
+print('Se você levar o produto agora, em vez de pagar R${:.2f}, pelo produto {}'.format(prec, prod))
+print('Você irá pagar somente R${:.2f}!'.format(prec*0.95))
+print('O que achou desse desconto de 5%? COMPRE JÁ')
