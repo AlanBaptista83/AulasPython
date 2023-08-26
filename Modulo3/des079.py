@@ -16,8 +16,6 @@ while True:
                 continuar = str(input('Opção ERRADA  TENTE novamente. Deseja continuar: [S/N] ')).upper().strip()
             else:
                 break
-
-
 lista.sort()
 print(f'Sua lista foi {lista}')
 
