@@ -18,7 +18,7 @@ cabeca('     Contatos')'''
 soma(4, 5)
 soma(b=2, a=1)'''
 
-'''def contador(* num):
+'''def contador(* num):  # Significa desempacotar o que vier de parametro
     cont = 0
     print(f'Recebi os valores: ', end='')
     for i in num:
@@ -27,7 +27,7 @@ soma(b=2, a=1)'''
     print(f' e esse contador possui {cont} números.')
     print('FIM!')
     tam = len(num)
-    print('')
+    print(f'{tam}')
 
 
 
@@ -35,7 +35,7 @@ soma(b=2, a=1)'''
 contador(2, 1, 7)
 contador(8, 0)
 contador(4, 4, 6, 2)'''
-def dobra(lst):
+def dobra(lst):  # Chama uma lista usando qualquer nome
     pos = 0
     while pos < len(lst):
         lst[pos] *= 2
